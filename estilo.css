@@ -1,0 +1,88 @@
+@charset "UTF-8";
+
+*{
+    padding: 0px;
+    margin: 0px;
+     overflow-x: hidden;
+}
+
+body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: rgb(0,0,0);
+   
+}
+header{
+    background-color: rgb(0, 0, 0);
+    text-align: center;
+    padding: 10px;
+}
+header > nav{
+    color: azure;
+    overflow: hidden;
+}  
+nav > a{
+    text-decoration: none;
+    background-color: rgb(0, 0, 0);
+    color: azure;
+    padding: 15px;
+    border-radius: 20px;
+    transition: .5s;
+}
+nav > a:hover{
+    background-color: rgba(128, 128, 128, 0.183);
+
+}
+header > h1{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(200, 0, 0);
+    padding: 15px;
+}
+
+section{
+    margin: auto;
+    max-width: 95vw;
+}
+
+section > h2{
+    color: rgb(243, 243, 243);
+    padding: 20px;
+}
+.video-container{
+    margin: 0px -23px 30px -20px;
+    padding: 20px;
+    padding-bottom: 50%;
+    position: relative;
+    margin-bottom: 15px;
+}
+.video-container > iframe{
+    position: absolute;
+    top: 2%;
+    left: 6%;
+    width: 90%;
+    height: 95%;
+    border-radius: 10px;
+    box-shadow: 0px 0px 50px rgba(74, 64, 64, 0.426);
+    border: solid rgba(255, 255, 255, 0.656);
+    
+}
+h3{
+    font-size: 1.5em;
+    color: white;
+    float: left;
+    padding: 10px;
+}
+button{
+    margin: 2px;
+    border: none;
+    color: white;
+    border-radius: 5px;
+    padding: 10px;
+    background-color: darkred;
+    float: right;
+}
+button:hover{
+    background-color: rgba(139, 0, 0, 0.431);
+    cursor: pointer;
+    
+    transition: .3s;
+}
