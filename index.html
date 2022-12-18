@@ -7,6 +7,65 @@
     <title>Inicio</title>
     <link rel="stylesheet" href="estilo.css">
 </head>
+<style>
+    body{
+        background-image: url(https://thurrott.s3.amazonaws.com/wp-content/uploads/sites/2/2022/01/14172326/netflix.jpg);
+        background-size: cover;
+        background-attachment: fixed;
+    }
+    article{
+        width: 100vw;
+        max-width: 400px;
+        border-radius: 20px;
+        transition: 1s;
+    }
+    .card1{
+        background-image: url(imagens/filosofal.jfif);
+        background-size: cover;
+        scroll-snap-align: center;
+        background-repeat: no-repeat;
+        overflow: hidden;
+    }
+    .card2{
+        background-image: url(imagens/constantine\ backgound.jpg);
+        background-size: cover;
+        scroll-snap-align: center;
+        background-repeat: no-repeat;
+        overflow: hidden;
+    }
+    .card3{
+        background-image: url(http://disneyplusbrasil.com.br/wp-content/uploads/2022/09/The-Walking-Dead-Star-Plus.jpg);
+        background-size: cover;
+        scroll-snap-align: center;
+        background-repeat: no-repeat;
+        overflow: hidden;
+    }
+    .carrosel{
+        display: grid;
+        grid-auto-flow: column;
+        scroll-behavior: auto;
+        gap: 5rem;
+        overflow-y: auto;
+        overscroll-behavior-x: contain;
+        scroll-snap-type: x mandatory;
+        scrollbar-width: none;
+    }
+    article > h1{
+        color: antiquewhite;
+        margin: 5px;
+        margin-left: 0px;
+        margin-top: 100px;
+        margin-bottom: 0px;
+        background-color: rgba(0, 0, 0, 0.35);
+        width: 100px;
+        padding: 21px;
+        
+    }
+    article:hover{
+        background-position: center center;
+        transition: 1s;
+    }
+</style>
 <body>
     <header>
         <h1>NétFlix</h1>
@@ -21,12 +80,21 @@
     </header>
     <section>
         <h2>Recomendado</h2>
-        <div class="video-container">
-            <iframe au width="560" height="315" src="https://www.youtube.com/embed/Pb0vImQT3c8" title="YouTube video player" frameborder="0" allow="accelerometer;  clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <div class="carrosel">
             
+            <article class="card1">
+              <h1>Harry Potter</h1>
+            </article>
+
+            <article class="card2">
+             <h1>Contantine</h1>
+            </article>
+
+            <article class="card3">
+              <h1>The Walking Dead</h1>
+            </article>
+
         </div>
-        <h3>Constantine</h3>
-        <a href="constantine.html"><button>ASSISTIR</button></a>
     </section>
    
     <script src="java.js"></script>
