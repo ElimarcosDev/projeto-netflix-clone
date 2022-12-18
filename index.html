@@ -7,6 +7,11 @@
     <title>Inicio</title>
     <link rel="stylesheet" href="estilo.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons"/>
+    <!--
+        <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/animation.css">
+    -->
+    
 </head>
 <style>
     body{
@@ -20,6 +25,7 @@
         border-radius: 20px;
         transition: 1s;
     }
+    
     #card1{
         background-image: url(imagens/filosofal.jfif);
         background-size: cover;
@@ -41,6 +47,8 @@
         background-repeat: no-repeat;
         overflow: hidden;
     }
+    
+    
     .carrosel{
         display: grid;
         grid-auto-flow: column;
@@ -51,6 +59,7 @@
         scroll-snap-type: x mandatory;
         scrollbar-width: none;
     }
+    
     article > h1{
         color: antiquewhite;
         margin: 5px;
@@ -79,22 +88,27 @@
             
         </nav>
     </header>
-    <section>
+    <section class="galery">
         <h2>Recomendado</h2>
         <div class="carrosel">
+            <!--
+            <img src="imagens/filosofal.jfif" alt="">
+            <img src="imagens/constantine backgound.jpg" alt="">
+            <img src="http://disneyplusbrasil.com.br/wp-content/uploads/2022/09/The-Walking-Dead-Star-Plus.jpg" alt="">
+            -->
             
             <article class="card" id="card1">
               <h1>Harry Potter</h1>
             </article>
 
             <article class="card" id="card2">
-             <h1>Contantine</h1>
+             <h1>Constantine</h1>
             </article>
 
             <article class="card" id="card3">
               <h1>The Walking Dead</h1>
             </article>
-
+        
         </div>
 
         
@@ -102,13 +116,7 @@
         
         
         
-        <a href="#card1">
-            <i id="bur" class="material-icons">arrow_back</i>
-        </a>
-
-        <a href="#card2">
-            <i id="bur" class="material-icons">arrow_forward</i>
-        </a>
+       
     </section>
    
     <script src="java.js"></script>

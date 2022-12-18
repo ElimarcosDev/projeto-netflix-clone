@@ -1,0 +1,17 @@
+.galery {
+    width: 100vw;
+    height: 360px;
+    overflow: hidden;
+}
+
+.galery .carrosel {
+    width: 500%;
+    animation-name: animacao;
+    animation-duration: 20s;
+    animation-iteration-count: infinite;
+}
+
+.galery .carrosel article {
+    width: 100vw;
+    max-width: 500px;
+}
