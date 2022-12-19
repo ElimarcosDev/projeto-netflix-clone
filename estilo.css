@@ -89,4 +89,57 @@ button:hover{
     
     transition: .3s;
 }
+img{
+    width: 90vw;
+    max-width: 400px;
+    border-radius: 20px;
+    margin-left: 15px;
+    margin-top: 20px;
+    transition: 1s;
+}
 
+#twd:hover{
+    box-shadow: 2px 2px 40px #a51515;
+    transition: 1s;
+    
+}
+#const:hover{
+    box-shadow: 2px 2px 40px #af5804;
+    transition: 1s;
+    
+}
+#harry1:hover{
+    box-shadow: 2px 2px 40px #0158b6;
+    transition: 1s;
+    
+}
+#harry2:hover{
+    box-shadow: 2px 2px 40px #1f8c6c;
+    transition: 1s;
+    
+}
+#harry3:hover{
+    box-shadow: 2px 2px 40px #af5804;
+    transition: 1s;
+    
+}
+#harry4:hover{
+    box-shadow: 2px 2px 40px #441478;
+    transition: 1s;
+    
+}
+#harry5:hover{
+    box-shadow: 2px 2px 40px #3a6360;
+    transition: 1s;
+    
+}
+#harry6:hover{
+    box-shadow: 2px 2px 40px #ca690e;
+    transition: 1s;
+    
+}
+#harry7:hover{
+    box-shadow: 2px 2px 40px #68818f;
+    transition: 1s;
+    
+}
