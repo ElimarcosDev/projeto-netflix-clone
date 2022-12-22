@@ -143,3 +143,16 @@ img{
     transition: 1s;
     
 }
+#watchmen{
+    display: none;
+}
+#avatar2:hover{
+    
+    box-shadow: 2px 2px 40px #026fb1;
+    transition: 1s;
+    
+}
+#avatar2{
+    display: none;
+}
+
